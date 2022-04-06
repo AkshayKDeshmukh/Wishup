@@ -19,6 +19,8 @@ public class Login extends Base {
 	public void openBrowser() throws IOException {
 		driver = intializeDriver();
 		log.info("Driver is initialized");
+		driver.manage().window().maximize();
+		log.info("Browser is maximized");
 		driver.get(prop.getProperty("url"));
 		log.info("Navigate to Wish up login Page");
 	}

@@ -1,50 +1,54 @@
-11:46:37.903 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
-11:46:37.919 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
-11:46:37.919 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
-11:46:37.919 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-11:46:37.919 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
-11:46:37.919 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-11:46:37.919 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
-11:46:37.934 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-11:46:37.950 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
-11:46:37.950 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
-11:46:37.950 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-11:46:38.836 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 17708 (auto-detected)
-11:46:38.851 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
-11:46:38.851 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
-11:46:39.120 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-11:46:39.120 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-11:46:39.405 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:e0:2d:ff:fe:4a:64:20 (auto-detected)
-11:46:39.469 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
-11:46:39.469 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
-11:46:39.469 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5de18c6
-11:46:39.505 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
-11:46:39.505 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
-11:46:39.505 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
-11:46:39.505 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
-11:46:41.320 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
-11:46:41.578 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x56fcc26f39811d9e
-11:46:41.674 [main] INFO  Wishup.Wishup_Login.Login - Driver is initialized
-11:46:48.816 [main] INFO  Wishup.Wishup_Login.Login - Navigate to Wish up login Page
-11:46:49.053 [main] INFO  Wishup.Wishup_Login.Login - Email id entered
-11:46:49.237 [main] INFO  Wishup.Wishup_Login.Login - Password entered
-11:46:56.360 [main] INFO  Wishup.Wishup_Login.Login - Login button Clicked
-11:46:56.361 [main] INFO  Wishup.Wishup_Login.Login - Login is Successful
-11:46:59.008 [main] INFO  Wishup.Wishup_Login.Login - Driver is initialized
-11:47:06.363 [main] INFO  Wishup.Wishup_Login.Login - Navigate to Wish up login Page
-11:47:06.628 [main] INFO  Wishup.Wishup_Login.Login - Email id entered
-11:47:06.719 [main] INFO  Wishup.Wishup_Login.Login - Password entered
-11:47:10.114 [main] INFO  Wishup.Wishup_Login.Login - Login button Clicked
-11:47:10.158 [main] INFO  Wishup.Wishup_Login.Login - Both email and Password are incorrect
-11:47:12.895 [main] INFO  Wishup.Wishup_Login.Login - Driver is initialized
-11:47:19.205 [main] INFO  Wishup.Wishup_Login.Login - Navigate to Wish up login Page
-11:47:19.390 [main] INFO  Wishup.Wishup_Login.Login - Email id entered
-11:47:19.488 [main] INFO  Wishup.Wishup_Login.Login - Password entered
-11:47:22.451 [main] INFO  Wishup.Wishup_Login.Login - Login button Clicked
-11:47:22.547 [main] INFO  Wishup.Wishup_Login.Login - Email is correct and Password is incorrect
-11:47:25.260 [main] INFO  Wishup.Wishup_Login.Login - Driver is initialized
-11:47:31.502 [main] INFO  Wishup.Wishup_Login.Login - Navigate to Wish up login Page
-11:47:31.708 [main] INFO  Wishup.Wishup_Login.Login - Email id entered
-11:47:31.793 [main] INFO  Wishup.Wishup_Login.Login - Password entered
-11:47:34.021 [main] INFO  Wishup.Wishup_Login.Login - Login button Clicked
-11:47:34.077 [main] INFO  Wishup.Wishup_Login.Login - Email is incorrect and Password is correct
+13:25:46.449 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+13:25:46.461 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+13:25:46.461 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+13:25:46.461 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+13:25:46.461 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+13:25:46.461 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+13:25:46.461 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+13:25:46.463 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+13:25:46.473 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+13:25:46.473 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+13:25:46.473 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+13:25:47.375 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 16656 (auto-detected)
+13:25:47.378 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+13:25:47.378 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+13:25:47.682 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+13:25:47.683 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+13:25:47.970 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:e0:2d:ff:fe:4a:64:20 (auto-detected)
+13:25:48.027 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+13:25:48.027 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+13:25:48.027 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6a0abb6b
+13:25:48.055 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+13:25:48.055 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+13:25:48.055 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+13:25:48.055 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+13:25:50.115 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+13:25:50.337 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x11bbf82683b481d1
+13:25:50.435 [main] INFO  Wishup.Wishup_Login.Login - Driver is initialized
+13:25:50.568 [main] INFO  Wishup.Wishup_Login.Login - Browser is maximized
+13:25:56.456 [main] INFO  Wishup.Wishup_Login.Login - Navigate to Wish up login Page
+13:25:56.741 [main] INFO  Wishup.Wishup_Login.Login - Email id entered
+13:25:56.876 [main] INFO  Wishup.Wishup_Login.Login - Password entered
+13:26:02.865 [main] INFO  Wishup.Wishup_Login.Login - Login button Clicked
+13:26:02.865 [main] INFO  Wishup.Wishup_Login.Login - Login is Successful
+13:26:05.722 [main] INFO  Wishup.Wishup_Login.Login - Driver is initialized
+13:26:05.874 [main] INFO  Wishup.Wishup_Login.Login - Browser is maximized
+13:26:12.941 [main] INFO  Wishup.Wishup_Login.Login - Navigate to Wish up login Page
+13:26:13.201 [main] INFO  Wishup.Wishup_Login.Login - Email id entered
+13:26:13.392 [main] INFO  Wishup.Wishup_Login.Login - Password entered
+13:26:16.086 [main] INFO  Wishup.Wishup_Login.Login - Login button Clicked
+13:26:16.188 [main] INFO  Wishup.Wishup_Login.Login - Both email and Password are incorrect
+13:26:18.664 [main] INFO  Wishup.Wishup_Login.Login - Driver is initialized
+13:26:18.858 [main] INFO  Wishup.Wishup_Login.Login - Browser is maximized
+13:26:28.495 [main] INFO  Wishup.Wishup_Login.Login - Navigate to Wish up login Page
+13:26:28.742 [main] INFO  Wishup.Wishup_Login.Login - Email id entered
+13:26:28.824 [main] INFO  Wishup.Wishup_Login.Login - Password entered
+13:26:31.847 [main] INFO  Wishup.Wishup_Login.Login - Login button Clicked
+13:26:31.932 [main] INFO  Wishup.Wishup_Login.Login - Email is correct and Password is incorrect
+13:26:36.505 [main] INFO  Wishup.Wishup_Login.Login - Driver is initialized
+13:26:36.639 [main] INFO  Wishup.Wishup_Login.Login - Browser is maximized
+13:26:43.487 [main] INFO  Wishup.Wishup_Login.Login - Navigate to Wish up login Page
+13:26:43.711 [main] INFO  Wishup.Wishup_Login.Login - Email id entered
+13:26:43.812 [main] INFO  Wishup.Wishup_Login.Login - Password entered
+13:26:43.918 [main] INFO  Wishup.Wishup_Login.Login - Login button Clicked
+13:26:48.551 [main] INFO  Wishup.Wishup_Login.Login - Email is incorrect and Password is correct

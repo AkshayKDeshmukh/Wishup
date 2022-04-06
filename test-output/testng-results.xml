@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-06T06:16:37Z" name="Default suite" finished-at="2022-04-06T06:17:34Z" duration-ms="57006">
+  <suite started-at="2022-04-06T07:55:45Z" name="Default suite" finished-at="2022-04-06T07:56:48Z" duration-ms="62947">
     <groups>
     </groups>
-    <test started-at="2022-04-06T06:16:37Z" name="Default test" finished-at="2022-04-06T06:17:34Z" duration-ms="57006">
+    <test started-at="2022-04-06T07:55:45Z" name="Default test" finished-at="2022-04-06T07:56:48Z" duration-ms="62947">
       <class name="Wishup.Wishup_Login.Login">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:46:37Z" name="openBrowser" finished-at="2022-04-06T11:46:48Z" duration-ms="11536" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:25:45Z" name="openBrowser" finished-at="2022-04-06T13:25:56Z" duration-ms="10630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginFunctionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:46:48Z" name="loginFunctionality" data-provider="getData" finished-at="2022-04-06T11:46:56Z" duration-ms="7544" status="PASS">
+        <test-method signature="loginFunctionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:25:56Z" name="loginFunctionality" data-provider="getData" finished-at="2022-04-06T13:26:02Z" duration-ms="6409" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,15 +32,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunctionality -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:46:56Z" name="closeBrowser" finished-at="2022-04-06T11:46:56Z" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:02Z" name="closeBrowser" finished-at="2022-04-06T13:26:03Z" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:46:56Z" name="openBrowser" finished-at="2022-04-06T11:47:06Z" duration-ms="9771" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:03Z" name="openBrowser" finished-at="2022-04-06T13:26:12Z" duration-ms="9845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginFunctionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:47:06Z" name="loginFunctionality" data-provider="getData" finished-at="2022-04-06T11:47:10Z" duration-ms="3795" status="PASS">
+        <test-method signature="loginFunctionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:12Z" name="loginFunctionality" data-provider="getData" finished-at="2022-04-06T13:26:16Z" duration-ms="3249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,15 +61,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunctionality -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:47:10Z" name="closeBrowser" finished-at="2022-04-06T11:47:10Z" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:16Z" name="closeBrowser" finished-at="2022-04-06T13:26:16Z" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:47:10Z" name="openBrowser" finished-at="2022-04-06T11:47:19Z" duration-ms="8824" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:16Z" name="openBrowser" finished-at="2022-04-06T13:26:28Z" duration-ms="12175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginFunctionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:47:19Z" name="loginFunctionality" data-provider="getData" finished-at="2022-04-06T11:47:22Z" duration-ms="3341" status="PASS">
+        <test-method signature="loginFunctionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:28Z" name="loginFunctionality" data-provider="getData" finished-at="2022-04-06T13:26:31Z" duration-ms="3436" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,15 +90,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunctionality -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:47:22Z" name="closeBrowser" finished-at="2022-04-06T11:47:22Z" duration-ms="435" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:31Z" name="closeBrowser" finished-at="2022-04-06T13:26:34Z" duration-ms="2152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:47:22Z" name="openBrowser" finished-at="2022-04-06T11:47:31Z" duration-ms="8518" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:34Z" name="openBrowser" finished-at="2022-04-06T13:26:43Z" duration-ms="9401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginFunctionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:47:31Z" name="loginFunctionality" data-provider="getData" finished-at="2022-04-06T11:47:34Z" duration-ms="2574" status="PASS">
+        <test-method signature="loginFunctionality(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:43Z" name="loginFunctionality" data-provider="getData" finished-at="2022-04-06T13:26:48Z" duration-ms="5065" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunctionality -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T11:47:34Z" name="closeBrowser" finished-at="2022-04-06T11:47:34Z" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@51cd7ffc]" started-at="2022-04-06T13:26:48Z" name="closeBrowser" finished-at="2022-04-06T13:26:48Z" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
