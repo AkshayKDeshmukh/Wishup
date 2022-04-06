@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-05T22:59:16 IST" name="Suite" finished-at="2022-04-05T23:00:16 IST" duration-ms="60385">
+    <groups>
+    </groups>
+    <test started-at="2022-04-05T22:59:16 IST" name="Test" finished-at="2022-04-05T23:00:16 IST" duration-ms="60385">
+      <class name="Wishup.Wishup_Login.Login">
+        <test-method signature="loginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@33e01298]" started-at="2022-04-05T22:59:16 IST" name="loginFunctionality" data-provider="getData" finished-at="2022-04-05T22:59:37 IST" duration-ms="21193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Valid Credentials]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wishup_testuser1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testpw1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method signature="loginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@33e01298]" started-at="2022-04-05T22:59:37 IST" name="loginFunctionality" data-provider="getData" finished-at="2022-04-05T22:59:51 IST" duration-ms="13848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid Credentials]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wishup_testuser10@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testpw20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method signature="loginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@33e01298]" started-at="2022-04-05T22:59:51 IST" name="loginFunctionality" data-provider="getData" finished-at="2022-04-05T23:00:04 IST" duration-ms="12968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onlyCorrectEmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wishup_testuser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testpw2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method signature="loginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Wishup.Wishup_Login.Login@33e01298]" started-at="2022-04-05T23:00:04 IST" name="loginFunctionality" data-provider="getData" finished-at="2022-04-05T23:00:16 IST" duration-ms="12046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[onlyCorrectPassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wishup_testuser10@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testpw1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Wishup.Wishup_Login.Login@33e01298]" started-at="2022-04-05T23:00:16 IST" name="closeBrowser" finished-at="2022-04-05T23:00:16 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Wishup.Wishup_Login.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
